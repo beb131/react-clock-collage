@@ -1,0 +1,101 @@
+#clock-container {
+  padding-top: 50px;
+  color: #333333;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 18px;
+  grid-template-areas:
+    "header header header header header header header header"
+    ". h_two-eight . . m_two-eight . . s_two-eight"
+    ". h_two-four . m_one-four m_two-four . s_one-four s_two-four"
+    "h_one-two h_two-two . m_one-two m_two-two . s_one-two s_two-two"
+    "h_one-one h_two-one . m_one-one m_two-one . s_one-one s_two-one";
+}
+
+body {
+  background: #333333 !important;
+}
+
+.cell {
+  background-color: #454545;
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid #eee; */
+  border-radius: 50%;
+  transition: background-color 300ms;
+}
+
+.active {
+  background-color: #f33;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 13px,
+    rgba(255, 0, 0, 0.5) 0 2px 12px;
+}
+
+.clock-header {
+  grid-area: header;
+  color: #eee;
+}
+.hour-1-1 {
+  grid-area: h_one-one;
+}
+.hour-1-2 {
+  grid-area: h_one-two;
+}
+.hour-2-1 {
+  grid-area: h_two-one;
+}
+.hour-2-2 {
+  grid-area: h_two-two;
+}
+.hour-2-4 {
+  grid-area: h_two-four;
+}
+.hour-2-8 {
+  grid-area: h_two-eight;
+}
+.minute-1-1 {
+  grid-area: m_one-one;
+}
+.minute-1-2 {
+  grid-area: m_one-two;
+}
+.minute-1-4 {
+  grid-area: m_one-four;
+}
+.minute-2-1 {
+  grid-area: m_two-one;
+}
+.minute-2-2 {
+  grid-area: m_two-two;
+}
+.minute-2-4 {
+  grid-area: m_two-four;
+}
+.minute-2-8 {
+  grid-area: m_two-eight;
+}
+.second-1-1 {
+  grid-area: s_one-one;
+}
+.second-1-2 {
+  grid-area: s_one-two;
+}
+.second-1-4 {
+  grid-area: s_one-four;
+}
+.second-2-1 {
+  grid-area: s_two-one;
+}
+.second-2-2 {
+  grid-area: s_two-two;
+}
+.second-2-4 {
+  grid-area: s_two-four;
+}
+.second-2-8 {
+  grid-area: s_two-eight;
+}
