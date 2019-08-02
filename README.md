@@ -1,12 +1,12 @@
-A collection of clocks created from scratch with React.
+A collection of clocks created from scratch with ReactJS (currently in progress).
 
 Currently only have Digital and Binary clocks, but I plan on adding an analog clock and many customizable options.
 
-Technologies Used:
+<strong>Technologies Used:</strong>
 
-ReactJS
+- ReactJS
 
-Things I learned:
+<strong>Things I learned:</strong>
 
 - Many methods of the JS Date prototype that I previously did not know about.
 - Gained a deeper understanding of Binary clocks.
