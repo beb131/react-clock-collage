@@ -1,4 +1,4 @@
-A collection of clocks created from scratch with ReactJS (currently in progress).
+<h1>A collection of clocks created from scratch with ReactJS (currently in progress).</h1>
 
 Currently only have Digital and Binary clocks, but I plan on adding an analog clock and many customizable options.
 
